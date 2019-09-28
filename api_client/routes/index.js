@@ -26,7 +26,7 @@ router.post('/auth', jsonParser,[
 
     const { sub, role } = await logic.authenticateUser( name, email)
     const token = jwt.sign({ sub, role }, JWT_SECRET, { expiresIn: '7d' })
-    return res.json(token)
+    return res.json({token})
   }, res)
 
 })
@@ -42,9 +42,10 @@ auth, (req, res) => {
   if(!errors.isEmpty()) return res.status(422).json({ error: errors.array() })
 
     const { body:{ name,  id } , role } = req
+    console.log(role)
 
     handleErrors( async ()=> {
-      if( role === ('admin' || 'user') ) throw new UnauthorizedError('The role credentials are not allowed to access to this data')
+      if( (role !== 'admin') &&  (role !== 'user') ) throw new UnauthorizedError('The role credentials are not allowed to access to this data')
       if(!name && !id) throw new HttpError('Bad request params')
 
       let client

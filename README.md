@@ -6,9 +6,11 @@
 ![D3](https://img.shields.io/badge/2.6.0-nodeFetch-orange)
 ![D3](https://img.shields.io/badge/8.5.1-jsonwebtoken-violet)
 
+## [Documentation and Live demo endpoints](api-client-doc/README.md)
+
 ## Description
 
-This's a test API-CLIENT that feeds from another API, filter data a send it through the 3 established end points
+🚀This's a test API-CLIENT that feeds from another API, filter data a send it through the 3 established end points
 
 ## Installation
 
@@ -27,3 +29,4 @@ npm run test
 ```
 node .
 ```
+
