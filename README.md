@@ -10,7 +10,7 @@
 
 ## Description
 
-🚀This's a test API-CLIENT that feeds from another API, filter data a send it through the 3 established end points
+🚀This's a test API-CLIENT that feeds from another API, filtering data and sending it through the 3 established end points
 
 ## Installation
 
