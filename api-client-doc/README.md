@@ -97,7 +97,7 @@ Only users with "admin" role can performe this action, not all users have polici
       }
 
 ```
-### Retrieving "user" linked to a "policy" number
+### Retrieving user linked to a "policy" number
 
 Only users with "admin" role can performe this action, not all users have policies linked to them
 
