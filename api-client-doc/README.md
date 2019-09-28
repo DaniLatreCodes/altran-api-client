@@ -10,7 +10,7 @@ To do so, you first must to get a authoritation token, then, depending on wich r
 
 ### Getting an athorization "token"
 
-You need to povide the api-client an exintin "name" and "email" that already exist on the placeholder that feed this API.
+You need to povide the api-client an existing "name" and "email" that already is on the placeholder that feeds this API.
 
 #### POST: https://floating-ocean-72055.herokuapp.com/api/auth
 
