@@ -89,26 +89,10 @@ Only users with "admin" role can performe this action, not all users have polici
 #### GET: https://floating-ocean-72055.herokuapp.com/api/userPolicies?name=Britney
 
 
-😸Client with policies linked to her
-
-```
-      {  
-         "name":"Britney"
-      }
-
-```
 ### Retrieving user linked to a "policy" number
 
 Only users with "admin" role can performe this action, not all users have policies linked to them
 
-#### GET: https://floating-ocean-72055.herokuapp.com/api/userPolicies?name=Britney
+#### GET: https://floating-ocean-72055.herokuapp.com/api/policy?id=7b624ed3-00d5-4c1b-9ab8-c265067ef58b
 
 
-😸Client with policies linked to her
-
-```
-      {  
-         "name":"Britney"
-      }
-
-```
